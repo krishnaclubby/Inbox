@@ -5,6 +5,7 @@ import ListMessageTile from './ListMessageTile';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import { SearchBar } from 'react-native-elements';
+import ListTile from './ListTile';
 export default class InboxMessages extends React.Component {
 
     constructor(props) {
@@ -65,19 +66,8 @@ export default class InboxMessages extends React.Component {
                     </View>
                 </View>
                 <View style={{ marginBottom: 270 }}>
-                    <FlatList
-                        style={{}}
-                        horizontal={false}
-                        data={this.state.messages ? this.state.messages : []}
-                        keyExtractor={item => item.id}
-                        renderItem={({ item, index }) => {
-                            return (
-                                <TouchableOpacity key={index} style={{}}>
-                                    <ListMessageTile message={item} />
-                                </TouchableOpacity>
-                            )
-                        }}
-                    />
+                    <ListTile messages ={this.state.messages} />
+                   
                 </View>
             </View>
         )
