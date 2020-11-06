@@ -1,11 +1,9 @@
 import React from 'react';
 import { View, StyleSheet, TextInput, Dimensions, Text, ActivityIndicator, TouchableOpacity, FlatList } from 'react-native';
-import AppBar from './AppBar';
-import ListMessageTile from './ListMessageTile';
-import FontAwesome from 'react-native-vector-icons/FontAwesome';
+import AppBar from '../shared/AppBar';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import { SearchBar } from 'react-native-elements';
-import ListTile from './ListTile';
+import ListTile from '../design_V1/ListTile';
 export default class InboxMessages extends React.Component {
 
     constructor(props) {

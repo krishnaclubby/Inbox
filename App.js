@@ -4,10 +4,10 @@ import { createAppContainer, StackActions, NavigationActions } from 'react-navig
 import { createStackNavigator, TransitionPresets } from 'react-navigation-stack';
 import { createMaterialBottomTabNavigator } from 'react-navigation-material-bottom-tabs';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';  
-import LocS1 from './src/InboxMessages';
-import LocS2 from './src/InboxMessages1';
-import LocS3 from './src/InboxMessages1';
-import LocS4 from './src/InboxMessages1';
+import LocS1 from './src/design_V1/InboxMessages';
+import LocS2 from './src/design_V2/InboxMessages1';
+import LocS3 from './src/design_V2/InboxMessages1';
+import LocS4 from './src/design_V2/InboxMessages1';
 
 // const ROOT = createStackNavigator({
 //   LOCS1: {

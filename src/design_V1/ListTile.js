@@ -2,7 +2,7 @@ import React from 'react';
 import { View, StyleSheet, TextInput, Dimensions, Text, FlatList, TouchableOpacity } from 'react-native';
 import { CheckBox, Avatar, Card } from 'react-native-elements';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
-import ListMessageTile from './ListMessageTile';
+import ListMessageTile from '../design_V1/ListMessageTile';
 export default class ListTile extends React.Component {
 
     constructor(props) {
